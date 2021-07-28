@@ -15,62 +15,255 @@
 </head>
 <body>
   <!-- HEADER START -->
-  <header class="header">
-
-    <div class="navbar">
-      <a href="/index.html" class="logo">
-        <img src="img/logo.svg" alt="logo: Abito" class="logo__img">
-      </a>
-
-      <nav class="navbar__menu">
-        <ul class="menu">
-          <li class="menu__item">
-            <a href="#" class="menu__link">
-              Авто
-            </a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">
-              Недвижимость
-            </a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">
-              Работа
-            </a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">
-              Услуги
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="button__group">
-        <a href="#" class="button button-link">Вход и регистрация</a>
-        <a href="#" class="button button-primary">Подать объявление</a>
+  <header class="header container">
+      <div class="navbar">
+        <a href="/index.html" class="logo">
+          <img src="img/logo.svg" alt="logo: Abito" class="logo__img">
+        </a>
+  
+        <nav class="navbar__menu">
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Авто
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Недвижимость
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Работа
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Услуги
+              </a>
+            </li>
+          </ul>
+        </nav>
+  
+        <div class="button__group">
+          <a href="#" class="button button-link">Вход и регистрация</a>
+          <a href="#" class="button button-primary">Подать объявление</a>
+        </div>
       </div>
-    </div>
-    <!-- /.navbar -->
-    <div class="search-panel">
-      <input type="search" class="search__input" placeholder="Поиск по объявлениям">
-      <button class="search__button">
-        <svg class="search__icon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0)">
-          <path d="M14.6506 14.0012L10.0862 9.43675C10.9465 8.43352 11.4706 7.13293 11.4706 5.71058C11.4706 2.54822 8.89765 -0.0247192 5.7353 -0.0247192C4.20353 -0.0247192 2.76265 0.571751 1.67824 1.6544C0.595589 2.73793 -0.000881376 4.17881 9.77541e-07 5.71058C9.77541e-07 8.87293 2.57294 11.4459 5.7353 11.4459C7.15765 11.4459 8.45912 10.9218 9.46235 10.0615L14.0268 14.6259L14.6506 14.0012ZM5.7353 10.5635C3.06 10.5635 0.882354 8.38675 0.882354 5.71058C0.881472 4.41352 1.38618 3.19499 2.30294 2.2791C3.21882 1.36234 4.43824 0.857634 5.7353 0.857634C8.41059 0.857634 10.5882 3.0344 10.5882 5.71058C10.5882 8.38587 8.41059 10.5635 5.7353 10.5635Z" fill="white"/>
-          </g>
-          <defs>
-          <clipPath id="clip0">
-          <rect width="15" height="15" fill="white"/>
-          </clipPath>
-          </defs>
-          </svg>          
-        <span class="search__text">Найти</span>
-      </button>
-    </div>
-    <!-- /.search-panel -->
+      <!-- /.navbar -->
+      <div class="search-panel">
+        <input type="search" class="search__input" placeholder="Поиск по объявлениям">
+        <button class="search__button">
+          <svg class="search__icon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0)">
+            <path d="M14.6506 14.0012L10.0862 9.43675C10.9465 8.43352 11.4706 7.13293 11.4706 5.71058C11.4706 2.54822 8.89765 -0.0247192 5.7353 -0.0247192C4.20353 -0.0247192 2.76265 0.571751 1.67824 1.6544C0.595589 2.73793 -0.000881376 4.17881 9.77541e-07 5.71058C9.77541e-07 8.87293 2.57294 11.4459 5.7353 11.4459C7.15765 11.4459 8.45912 10.9218 9.46235 10.0615L14.0268 14.6259L14.6506 14.0012ZM5.7353 10.5635C3.06 10.5635 0.882354 8.38675 0.882354 5.71058C0.881472 4.41352 1.38618 3.19499 2.30294 2.2791C3.21882 1.36234 4.43824 0.857634 5.7353 0.857634C8.41059 0.857634 10.5882 3.0344 10.5882 5.71058C10.5882 8.38587 8.41059 10.5635 5.7353 10.5635Z" fill="white"/>
+            </g>
+            <defs>
+            <clipPath id="clip0">
+            <rect width="15" height="15" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>          
+          <span class="search__text">Найти</span>
+        </button>
+      </div>
+      <!-- /.search-panel -->
   </header>
   <!-- HEADER END -->
+
+
+  <div class="page-content container">
+
+      <!-- блок с обьявлениями -->
+      <main class="main">
+        <h2 class="page__title">Рекомендации для вас</h2>
+        <div class="cards">
+
+          <div class="card">
+            <a href="#" class="card__link">
+              <img src="img/card-img1.jpg" alt="photo" class="card__img">
+            </a>
+            <div class="card__header">
+              <a href="#" class="card__link">
+                <h3 class="card__title">Электросамокат</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="">
+              </button>
+            </div>
+            <strong class="card__price">
+              10 980 ₽
+            </strong>
+            <p class="card__text">Казань, р-н Ново-Савиновский</p>
+            <p class="card__text">10 июля 11:39</p>
+          </div>
+
+          <div class="card">
+            <a href="#" class="card__link">
+              <img src="img/card-img2.jpg" alt="photo" class="card__img">
+            </a>
+            <div class="card__header">
+              <a href="#" class="card__link">
+                <h3 class="card__title">Пвх материал 2й сорт</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="">
+              </button>
+            </div>
+            <strong class="card__price">
+              170 ₽
+            </strong>
+            <p class="card__text">Казань,  р-н Вахитовский</p>
+            <p class="card__text">10 июля 11:39</p>
+          </div>
+
+          <div class="card">
+            <a href="#" class="card__link">
+              <img src="img/card-img3.jpg" alt="photo" class="card__img">
+            </a>
+            <div class="card__header">
+              <a href="#" class="card__link">
+                <h3 class="card__title">Двухсторонняя ветровка <br> для мальчика</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="">
+              </button>
+            </div>
+            <strong class="card__price">
+              2 110 ₽
+            </strong>
+            <p class="card__text">Казань, р-н Ново-Савиновский</p>
+            <p class="card__text">10 июля 11:39</p>
+          </div>
+
+          <div class="card">
+            <a href="#" class="card__link">
+              <img src="img/card-img4.jpg" alt="photo" class="card__img">
+            </a>
+            <div class="card__header">
+              <a href="#" class="card__link">
+                <h3 class="card__title">Пеленальная доска на комод</h3>
+              </a>  
+              <button class="like">
+                <img src="img/like.svg" alt="">
+              </button>
+            </div>
+            <strong class="card__price">
+              200 ₽
+            </strong>
+            <p class="card__text">Казань, р-н Ново-Савиновский</p>
+            <p class="card__text">10 июля 11:39</p>
+          </div>
+
+          <div class="card">
+            <a href="#" class="card__link">
+              <img src="img/card-img5.jpg" alt="photo" class="card__img">
+            </a>
+            <div class="card__header">
+              <a href="#" class="card__link">
+                <h3 class="card__title">Участок 8 сот. (ИЖС)</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="">
+              </button>
+            </div>
+            <strong class="card__price">
+              101 980 ₽
+            </strong>
+            <p class="card__text">Казань, р-н Ново-Савиновский</p>
+            <p class="card__text">10 июля 11:39</p>
+          </div>
+
+          <div class="card">
+            <a href="#" class="card__link">
+              <img src="img/card-img6.jpg" alt="photo" class="card__img">
+            </a>
+            <div class="card__header">
+              <a href="#" class="card__link">
+                <h3 class="card__title">Ford Fusion, 2007</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="">
+              </button>
+            </div>
+            <strong class="card__price">
+              304 000 ₽
+            </strong>
+            <p class="card__text">Казань, р-н Ново-Савиновский</p>
+            <p class="card__text">10 июля 11:39</p>
+          </div>
+        </div>
+      </main>
+
+      <aside class="sidebar">
+        <h4 class="page__title">
+          Сервисы и услуги
+        </h4>
+
+        <div class="service">
+          <img src="img/shipping.svg" alt="icon: shipping" class="service__img">
+          <h5 class="service__title">Доставка</h5>
+          <p class="service__text">
+            Проверка при получении и возможность бесплатно вернуть товар
+          </p>
+        </div>
+
+        <div class="service">
+          <img src="img/car.svg" alt="icon: shipping" class="service__img">
+          <h5 class="service__title">Автотека</h5>
+          <p class="service__text">
+            Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах
+          </p>
+        </div>
+
+        <div class="service">
+          <img src="img/homelove.svg" alt="icon: shipping" class="service__img">
+          <h5 class="service__title">Онлайн-бронирование жилья</h5>
+          <p class="service__text">
+            Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России
+          </p>
+        </div>
+        <hr color="#E5E5E5">
+
+        <footer class="footer">
+          <p class="footer__text">
+            © ООО «Абито», 2011–2021
+          </p>
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <a href="" class="footer__text">
+                Политика конфиденциальности
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="" class="footer__text">
+                Обработка данных
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <a href="" class="footer__link">
+                Реклама на сайте
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="" class="footer__link">
+                Вакансии
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="" class="footer__link">
+                Помощь
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </aside>
+    
+  </div>
+  <!-- /.page-content -->
 </body>
 </html>
